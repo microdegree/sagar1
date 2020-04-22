@@ -22,7 +22,7 @@ class Registration extends Component {
                   <div class="card-body  text-light">
                     <form method="POST">
                       <div class="form-row">
-                        <div class="name">First name</div>
+                        <div class="name">Company name</div>
                         <div class="value">
                           <input
                             class="input--style-6"
@@ -32,7 +32,7 @@ class Registration extends Component {
                         </div>
                       </div>
                       <div class="form-row">
-                        <div class="name">Last name</div>
+                        <div class="name">Company Location</div>
                         <div class="value">
                           <input
                             class="input--style-6"

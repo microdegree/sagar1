@@ -129,48 +129,17 @@ export default class Navbar extends Component {
                   Home
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Students
+              <li className="nav-item">
+                <a className="nav-link " href="/main/ShowCompany">
+                List Of Companies
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/vendor/addDonors">
-                    Add/Delete Students
-                  </a>
-                  <a className="dropdown-item" href="/vendor/ShowDonors">
-                    Show Students
-                  </a>
-                </div>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Company
+              <li className="nav-item">
+                <a className="nav-link " href="/main/ShowStudent">
+                  List Of students
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/vendor/addDonors">
-                  Add/Delete Company
-                  </a>
-                  <a className="dropdown-item" href="/vendor/ShowDonors">
-                    Show Company
-                  </a>
-                </div>
               </li>
+            
               
             </ul>
           </div>

@@ -6,6 +6,7 @@ import CompanyHome from "./CompanyHome";
 // import fRegistration from "./Registration";
 import CompanyNavbar from "./CompanyNavbar";
 
+
 function App() {
   return (
     <Router>

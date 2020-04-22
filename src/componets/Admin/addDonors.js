@@ -17,7 +17,7 @@ export default class addDonors extends Component {
                   <div class="card-body">
                     <form method="POST">
                       <div class="form-row frow">
-                        <div class="name">Projects Name:</div>
+                        <div class="name">Projects Tittle:</div>
                         <div class="value">
                           <input
                             class="input--style-6"
@@ -27,13 +27,148 @@ export default class addDonors extends Component {
                         </div>
                       </div>
                       <div class="form-row frow">
-                        <div class="name">Address</div>
+                        <div class="name">Upload Images:</div>
+                        <div class="value">
+                          <div class="input-group js-input-file">
+                            <input
+                              class="input-file"
+                              type="file"
+                              name="file_doc"
+                              id="file"
+                            />
+                            <label class="label--file" for="file">
+                              Choose file
+                            </label>
+                            <span class="input-file__info">No file chosen</span>
+                          </div>
+                          <div class="label--desc">
+                            Upload your Document/Id proff or any other relevant
+                            file. Max file size 50 MB
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Project Description</div>
                         <div class="value">
                           <div class="input-group">
                             <input
                               class="input--style-6"
                               type="text"
                               name="desc"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Department</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Upload Project Synopsis:</div>
+                        <div class="value">
+                          <div class="input-group js-input-file">
+                            <input
+                              class="input-file"
+                              type="file"
+                              name="file_doc"
+                              id="file"
+                            />
+                            <label class="label--file" for="file">
+                              Choose file
+                            </label>
+                            <span class="input-file__info">No file chosen</span>
+                          </div>
+                          <div class="label--desc">
+                            Upload your Document/Id proff or any other relevant
+                            file. Max file size 50 MB
+                          </div>
+                        </div>
+                      </div>
+                    
+                  
+                      <div class="form-row frow">
+                        <div class="name">Team</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Duration</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Guide</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Institution</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Phone Number</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Price</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
                               placeholder=""
                             />
                           </div>
@@ -52,25 +187,11 @@ export default class addDonors extends Component {
                           </div>
                         </div>
                       </div>
-                      <div class="form-row frow">
-                        <div class="name">mobile no</div>
-                        <div class="value">
-                          <div class="input-group">
-                            <input
-                              class="input--style-6"
-                              type="email"
-                              name="email"
-                              placeholder=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    
                     </form>
                   </div>
                   <div class="card-footer">
                     <button class="btn btn--radius-2 btn-gray" type="submit">
-                      Submit
+                      ADD
                     </button>
                   </div>
                 </div>

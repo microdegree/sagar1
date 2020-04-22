@@ -1670,12 +1670,12 @@ input.hidden {
   /* margin-top: 5%; */
   position: fixed;
   /* width: 600px; */
-  height: fit-content;
+  height: 700px;
   padding: 10px;
-  border: 1px solid #ff7800;
-  top: 50%;
+  border: 1px solid #030158;
+  top: 60%;
   left: 50%;
-  background-color: wheat;
+  background-color:#ffffff;
   border-radius: 4px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
   transform: translate(-50%, -50%);
@@ -1689,10 +1689,10 @@ input.hidden {
   margin: 10px;
 }
 .product-big-img {
-  width: 45%;
-  height: auto;
+  width: 100%;
+  height: 200px;
   display: inline-flex;
-  float: left;
+  margin-right: -300px;
 }
 .product-big-img img {
   width: 100%;
@@ -2553,4 +2553,10 @@ button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;}
 }
 .mtop{
   margin-top: 150px !important ;
+}
+.text-dark {
+  color: #ffffff!important;
+}
+.text-dark1 {
+  color: #0e0375!important;
 }
