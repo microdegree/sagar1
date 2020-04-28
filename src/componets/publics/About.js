@@ -1,61 +1,25 @@
 import React from "react";
-
 export default function About() {
   return (
-    <footer class="flex-rw">
-  
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">About Pavilion</h4></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">BECOME A RETAILER</a></li>
+    <div className="container-fluid mt-5">
+    <div className="footer_section " id="about">
+      <div className="container">
+          <div className="container">
+                    <h2>About Us</h2>
+                      <div className="row">
+                      <div className="col-lg-12">
+                          <p>
+                          Charitable giving is the act of giving money, goods or time to the unfortunate, either directly or by means of a charitable trust or other worthy cause.[9] Charitable giving as a religious act or duty is referred to as almsgiving or alms. The name stems from the most obvious expression of the virtue of charity; giving the recipients of it the means they need to survive. The impoverished, particularly those widowed or orphaned, and the ailing or injured, are generally regarded as the proper recipients of charity. The people who cannot support themselves and lack outside means of support sometimes become "beggars", directly soliciting aid from strangers encountered in public.
 
-    <li><a href='' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
+                          Some groups regard charity as being distributed towards other members from within their particular group. Although giving to those nearly connected to oneself is sometimes called charity—as in the saying "Charity begins at home"—normally charity denotes giving to those not related, with filial piety and like terms for supporting one's family and friends. Indeed, treating those related to the giver as if they were strangers in need of charity has led to the figure of speech "as cold as charity"—providing for one's relatives as if they were strangers, without affection.[10]
 
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
-  </ul>
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">The Gift Selection</h4></li>
-
-
-    <li><a href='' class="generic-anchor footer-list-anchor">ANGEL FIGURINES</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor">HOME DECOR</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor">MUGS</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor">PET LOVER</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" target="_blank">HANDBAGS & JEWELRY</a></li>
-  </ul>
-  <ul class="footer-list-top">
-    <li id='help'>
-      <h4 class="footer-list-header">Please Help Me</h4></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
-    <li id='find-a-store'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
-    <li id='user-registration'><a href='/shop/user-registration?URL=' class="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
-    <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
-  </ul>
-  <section class="footer-social-section flex-rw">
-      <span class="footer-social-overlap footer-social-connect">
-      CONNECT <span class="footer-social-small">with</span> US
-      </span>
-      <span class="footer-social-overlap footer-social-icons-wrapper">
-      <a href="" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
-      </span>
-  </section>
-  <section class="footer-bottom-section flex-rw">
-<div class="footer-bottom-wrapper">   
-<i class="fa fa-copyright" role="copyright">
- 
-</i> 2019 Pavilion in <address class="footer-address" role="company address">Bergen, NY</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+                          Most forms of charity are concerned with providing basic necessities such as food, water, clothing, healthcare and shelter, but other actions may be performed as charity: visiting the imprisoned or the homebound, ransoming captives, educating orphans, even social movements. Donations to causes that benefit the unfortunate indirectly, such as donations to fund cancer research, are also charity
+                          </p>
+                        </div>
+                      </div>
+                  </div>
+      </div>
     </div>
-
-  </section>
-</footer>
+  </div>
   );
 }
